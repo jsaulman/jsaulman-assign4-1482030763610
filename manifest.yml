@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jsaulman-assign4
+  host: jsaulman-assign4
+  disk_quota: 1024M
+  services:
+  - jsaulman-assign4-cloudantNoSQLDB
+  - Internet of Things Platform-ji
